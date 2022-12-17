@@ -1,18 +1,24 @@
-import './App.css';
-import { Button, Card, CardActions, CardContent, Typography } from '@mui/material';
-import { Box, Stack } from '@mui/system';
-import React from 'react';
+import "./App.css";
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  Typography,
+} from "@mui/material";
+import { Box, Stack } from "@mui/system";
+import React from "react";
 
 function App() {
   const bull = (
     <Box
       component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+      sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
     >
       •
     </Box>
   );
-  
+
   const card = (
     <React.Fragment>
       <CardContent>
@@ -38,13 +44,13 @@ function App() {
   );
   return (
     <div className="App">
-       <Stack spacing={2} direction="row"></Stack>
-        <Button variant="text">Text</Button>
+      <Stack spacing={2} direction="row"></Stack>
+      <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
       <Box sx={{ minWidth: 275 }}>
-      <Card variant="outlined">{card}</Card>
-    </Box>
+        <Card variant="outlined">{card}</Card>
+      </Box>
     </div>
   );
 }
