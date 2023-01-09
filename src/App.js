@@ -9,7 +9,6 @@ import {
 import { Box, Stack } from "@mui/system";
 import React from "react";
 
-
 function App() {
   const bull = (
     <Box
@@ -46,7 +45,6 @@ function App() {
   
   return (
     <div className="App">
-
       <Stack spacing={2} direction="row"></Stack>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
