@@ -43,7 +43,6 @@ function App() {
     </React.Fragment>
   );
   
-  
   return (
     <div className="App">
       <Stack spacing={2} direction="row"></Stack>
