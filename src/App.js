@@ -9,7 +9,6 @@ import {
 import { Box, Stack } from "@mui/system";
 import React from "react";
 
-
 function App() {
   const bull = (
     <Box
